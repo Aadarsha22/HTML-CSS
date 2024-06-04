@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <style>
+    body {
+        background-color: #003C43;
+    }
+    .inline {
+                background-color: #77B0AA;
+                border: 2px solid #ccc;
+                padding: 5px;
+                
+
+            }
+    .moments {
+        text-align: center;
+        color: black;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+
+    }
+.container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    }
+
+.card {
+    background-color: #77B0AA;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+.card p {
+    color: #000000;
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="moments">
+        <h1><span class="inline">Iconic Moments in Cricket</span></h1>
+    </div>
+
+  <div class="container">
+    <div class="card">
+      <img src="benstokes.jpg" alt="">
+      <p>Ben Stokes epic innings leads England to record breking run-chase.</p>
+    </div>
+    <div class="card">
+      <img src="abdevilliers.jpg" alt="">
+      <p>AB de Villiers plundered a 66-ball 162 to help South Africa beat West Indies.</p>
+    </div>
+    <div class="card">
+      <img src="viratkohli1.jpg" alt="">
+      <p>India chased 160-run target against Pakistan, as Kohli finished on 82*.</p>
+    </div>
+  </div>
+</body>
+</html>

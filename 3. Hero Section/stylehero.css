@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container img {
+    height: 400px;
+    width: 420px;
+    object-fit: cover;
+}
+.second {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    background-color: skyblue;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    z-index: 1; 
+}
+
+.second p, .second h1 {
+    margin: 30px 0;
+    color: white;
+}
+.second button {
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+}

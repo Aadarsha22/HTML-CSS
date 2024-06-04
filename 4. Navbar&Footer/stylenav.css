@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+.logo img {
+    height: 3   0px;
+}
+nav {
+    background-color: rgb(53, 188, 230);
+    padding: 30px;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.first p{
+    font-family: "Jersey 15", sans-serif;
+}
+.contnet {
+    position: relative;
+}
+.content img{
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+    object-fit: fill;
+
+}
+.content .first button {
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(25, 142, 177);
+    border: 1px solid rgb(25, 142, 177);
+    border-radius: 18px;
+    cursor: pointer;
+    margin: 20px;
+}
+.first {
+    position: absolute;
+    color: white;
+    top: 150px;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    z-index: 1;
+}
+.first1 {
+    border: 1px solid white;
+    border-radius: 31px;
+    width: 80%;
+    height: 70px;
+    position: absolute;
+    color: rgb(25, 142, 177);
+    background-color: white;
+    top: 300px;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    z-index: 1;
+    justify-content: space-between;
+}
+.first1 img{
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(25, 142, 177);
+    border-radius: 32px;
+}
+.first1 button{
+    padding: 10px;
+    background-color: rgb(25, 142, 177);
+    color: white;
+    border: 1px solid white;
+    border-radius: 18px;
+    cursor: pointer; 
+}
+.first1 ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.first1 ul li {
+    display: inline-flex;
+    margin: 17px 20px 0 20px;
+}
+.second {
+    height: 799px;
+}
+.content1 {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.second p {
+    font-family: "Jersey 15", sans-serif;
+}
+.subsecond {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrap1 {
+    margin-top: 20px;
+    width: 70%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+.wrap2 {
+    margin-top: 20px;
+    width: 20%;
+    height: 400px;
+}
+.wrap2 img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    margin-top: 16px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 30px;
+}
+.side {
+    width: 75%;
+    height: 200px;
+    margin-top: 16px;
+}
+.explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.explore button {
+    padding: 10px;
+    background-color: rgb(25, 142, 177);
+    color: white;
+    border: 1px solid white;
+    border-radius: 18px;
+    cursor: pointer; 
+}
+.side1 {
+    text-align: right;
+}
+.side1 ul {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+.side1 ul li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+.side1 ul li img {
+    height: 20px;
+    width: 20px;
+}
+.lastbutton button {
+    border: none;
+    background-color: transparent;
+
+    color: rgb(53, 188, 230);
+    cursor: pointer;
+}
+.last {
+    background-color: rgb(25, 142, 177);
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.last button {
+    padding: 10px;
+    background-color: rgb(25, 142, 177);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;        
+}
+footer {
+    background-color: rgb(53, 188, 230);
+    padding: 30px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1256px) {
+    .side p {
+        font-size: 14px;
+    }
+} 
+@media (max-width: 1150px) {
+    .side1 ul li img {
+        height: 14px;
+        width: 14px;
+    }
+    .side1 ul li {
+        font-size: 11px;
+    }
+    .side p {
+        font-size: 11px;
+    }
+}
